@@ -71,6 +71,7 @@ i18n
             formSend: 'Enviar',
             ventas1: 'Ventas 1',
             ventas2: 'Ventas 2',
+            copyright: '© www.gmtdobrasil.com.br Todos los Derechos Reservados.',
         },
       },
       pg: {
@@ -111,12 +112,13 @@ i18n
 
             formName: 'Nome',
             formLastName: 'Sobrenome',
-            formTel: 'TelTelefone',
+            formTel: 'Telefone',
             formSubject: 'Assunto',
             formMessage: 'Mensagem',
             formSend: 'Enviar',
             ventas1: 'Vendas 1',
             ventas2: 'Vendas 2',
+            copyright: '© www.gmtdobrasil.com.br Todos os Direitos Reservados.',
         },
       },
     },

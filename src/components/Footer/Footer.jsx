@@ -14,7 +14,7 @@ const Footer = () => {
                         <li className='footer__Data-Item-Container'>
 
                             <a href='mailto:ventas@gumatsrl.com' className='footer__Data-Item'>                                
-                                <i className="bi bi-envelope"></i> ventas@gumatsrl.com
+                                <i className="bi bi-envelope"></i> gmt-brasil@gmt-brasil.com
                             </a>                            
                         </li>
                         <li className='footer__Data-Item'>
@@ -30,7 +30,7 @@ const Footer = () => {
                         </li>
                         <li className='footer__Data-Item'>
                             <p className='footer__Data-Item'>
-                                <i className="bi bi-geo-alt"></i> San Pedro 4025, CABA CP: 1407 Buenos Aires, Argentina
+                                <i className="bi bi-geo-alt"></i> Rua Pedro Theisen Júnior, 508, 88135-420 - Palhoça - SC
                             </p>
                         </li>
                     </ul>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>                
             </div>    
             <div className='row footer__Copyright-Container'>
-                    <p className='footer__Copyright'>© Gumat.com.ar Todos los Derechos Reservados. </p>                
+                    <p className='footer__Copyright'>{t('copyright')} </p>                
                 </div>        
         </div>
     )

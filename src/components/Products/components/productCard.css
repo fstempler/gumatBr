@@ -1,0 +1,12 @@
+
+.productCard__Container{
+    height: 100%;
+    width: 18rem;
+    margin: 5px;
+}
+.card-text{
+    font-size: 0.8rem;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 10px;
+}

@@ -1,0 +1,44 @@
+.pilars__MainContainer{
+    background-image: url(../../assets/pilars/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 100px 0;
+}
+.pilars__Cards-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.pilars__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pilars__Title-Container{
+    padding: 20px;
+}
+.pilars__Title{
+    color: #fff;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 200;
+    overflow-y: hidden;
+}
+
+@media (max-width: 460px) {
+    .pilars__Cards-Container{
+        margin-top: 0;
+    }
+    .pilars__Title-Container{
+        padding: 0;        
+    }
+    .pilars__Title{
+        text-align: center;
+        font-size: 3rem;
+    }
+}

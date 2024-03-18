@@ -1,0 +1,75 @@
+.about__MainContainer{
+    background-image: url(../../assets/About/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 100px 20px;
+}
+
+.about__Title-Container{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    position: relative;    
+    padding: 20px;    
+}
+.about__Title{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 200;
+    overflow-y: hidden;
+}
+.about__Data-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.about__Row{
+    justify-content: center;    
+}
+
+.about__Text-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;    
+    padding: 20px;        
+}
+
+.about__Text{
+    color: white;
+    font-size: 1.3rem;    
+}
+.about__Video-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__Video{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 460px) {
+    .about__Text-Container{                
+        justify-content: center;
+        text-align: center;
+        padding: 40px;        
+    } 
+    .about__Text{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .about__Title{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .about__Title-Container{
+        justify-content: center;
+    }    
+}

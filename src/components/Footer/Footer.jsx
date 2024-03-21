@@ -13,8 +13,8 @@ const Footer = () => {
                     <ul className='footer__List'>
                         <li className='footer__Data-Item-Container'>
 
-                            <a href='mailto:ventas@gumatsrl.com' className='footer__Data-Item'>                                
-                                <i className="bi bi-envelope"></i> gmt-brasil@gmt-brasil.com
+                            <a href='mailto:gmt@gmt-brasil.com' className='footer__Data-Item'>                                
+                                <i className="bi bi-envelope"></i> gmt@gmt-brasil.com
                             </a>                            
                         </li>
                         <li className='footer__Data-Item'>
